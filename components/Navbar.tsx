@@ -115,7 +115,7 @@ const Navbar = () => {
           <BsSearch size={20} />
         </div>
       </div>
-      <div className='hidden md:flex grow items-center justify-end'>
+      <div className='hidden md:flex  items-center justify-end'>
         {session ? (
           <div className='flex items-center'>
             <Link href='/account'>
